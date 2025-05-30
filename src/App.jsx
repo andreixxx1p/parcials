@@ -1,4 +1,4 @@
-import ChatPrompt from './components/ChatPrompt'
+import Chat from './components/Chat'
 import './App.css'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       
       <div className="w-full max-w-2xl mx-auto flex-1 flex flex-col">
         <div className="flex-1 flex flex-col pb-4">
-          <ChatPrompt />
+          <Chat />
         </div>
         
         <p className="text-center text-purple-600 font-medium text-sm my-2">
