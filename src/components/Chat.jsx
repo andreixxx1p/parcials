@@ -54,7 +54,7 @@ const Chat = () => {
       setInputMessage('')
       
       // Enviar mensaje al backend
-      const response = await axios.post('/api/chat', {
+      const response = await axios.post('http://localhost:5000/api/chat', {
         message: inputMessage,
         userId: userId
       }, {

@@ -19,7 +19,7 @@ export default defineConfig({
             console.log('Sending Request:', {
               method: req.method,
               url: req.url,
-              target: 'http://localhost:5000',
+              target: 'http://localhost:5002',
               path: proxyReq.path
             });
           });
