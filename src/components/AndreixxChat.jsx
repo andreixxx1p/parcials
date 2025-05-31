@@ -76,8 +76,8 @@ const AndreixxChat = () => {
 
       console.log('Enviando petición con body:', requestBody)
       
-      // Enviar mensaje al backend con la configuración correcta
-      const response = await api.post('/api/chat', requestBody, {
+      // Enviar mensaje al ba kend con la configuración correcta
+      const response = await api.post('https://parcial3-ashy.vercel.app/api/chat', requestBody, {
         headers: {
           'Content-Type': 'application/json'
         }
