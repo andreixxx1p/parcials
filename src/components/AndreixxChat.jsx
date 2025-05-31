@@ -4,7 +4,7 @@ import { FaGamepad, FaUser, FaKeyboard, FaHeadset, FaMouse } from 'react-icons/f
 
 // Configuración de axios
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://parcial3-ashy.vercel.app',
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
@@ -97,7 +97,7 @@ const AndreixxChat = () => {
     } catch (error) {
       console.error('Error completo:', error);
       console.error('Detalles de la petición:', {
-        url: 'http://localhost:5000/api/chat',
+        url: 'https://parcial3-ashy.vercel.app/api/chat',
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
